@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkourlife_40_ed=self.webpackChunkourlife_40_ed||[]).push([[4779],{3419:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/ourlife40ed/blog/tags/facebook","allTagsPath":"/ourlife40ed/blog/tags","count":1}')}}]);

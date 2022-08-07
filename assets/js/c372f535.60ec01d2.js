@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkourlife_40_ed=self.webpackChunkourlife_40_ed||[]).push([[1090],{2596:e=>{e.exports=JSON.parse('{"label":"docusaurus","permalink":"/ourlife40ed/blog/tags/docusaurus","allTagsPath":"/ourlife40ed/blog/tags","count":4}')}}]);

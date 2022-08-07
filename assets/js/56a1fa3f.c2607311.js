@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkourlife_40_ed=self.webpackChunkourlife_40_ed||[]).push([[335],{7875:e=>{e.exports=JSON.parse('{"permalink":"/ourlife40ed/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
