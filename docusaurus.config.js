@@ -6,10 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Our Life 4.0'ed',
+  title: 'Our Life 4.0\'ed',
   tagline: 'Thank you Dinosaurs to enable me to make this happening',
   url: 'https://github.com',
-  baseUrl: '/ourlife40ed',
+  baseUrl: '/ourlife40ed/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'PackElend', // Usually your GitHub org/user name.
-  projectName: 'ourlife40edold', // Usually your repo name.
+  projectName: 'ourlife40ed', // Usually your repo name.
   deploymentBranch: 'gh-pages', // add manually, not part of template
 
   // Even if you don't use internalization, you can use this field to set useful
