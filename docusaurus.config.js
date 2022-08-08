@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Our Life 4.0\'ed',
-  tagline: 'Thank you Dinosaurs to enable me to make this happening',
+  tagline: 'Many thanks to the Docusaurus team who make this site possible for me.',
   url: 'https://github.com',
   baseUrl: '/ourlife40ed/',
   onBrokenLinks: 'throw',
@@ -58,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'My Home 4.0',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -66,9 +66,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'how-all-begun',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Road to 4.0',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -85,8 +85,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Road to 4.0',
+                to: '/docs/how-all-begun',
               },
             ],
           },
@@ -121,7 +121,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Our Life 4.0\'ed. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Tutorial Intro
 
 Let's discover **Docusaurus in less than 5 minutes**.
@@ -45,3 +41,47 @@ The `cd` command changes the directory you're working with. In order to work wit
 The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
 
 Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+
+
+:::info
+
+This page has been slightly adapted to retain the standard structure, even though this file is no longer the root file. 
+Adaption are made as found in https://github.com/facebook/docusaurus/blob/main/website/docs/guides/docs/sidebar/index.md
+
+The following was done:
+
+- adapted folder structure:
+  ```bash
+  website # root directory of your site
+  ├── docs
+  │   └── my new welcome doc.md
+  │   └── docusaurus-default
+  │       └── index.md (old `intro.md`)
+  │       └── tutorial-basics
+  │           └── ...(default)
+  │       └── tutorial-extras
+  │           └── ...(default)  
+  ├── ...
+  ```
+- renamed the the default `intro.md` to `index.md`.
+- added `mdx`as found in [in the source of Sidebar-Doc](https://github.com/facebook/docusaurus/blob/main/website/docs/guides/docs/sidebar/index.md).
+  ````bash
+  §```mdx-code-block
+  import DocCardList from '@theme/DocCardList';
+  import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
+  
+  <DocCardList items={useCurrentSidebarCategory().items}/>
+  ```
+  ````
+
+
+
+:::
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
+
+<DocCardList items={useCurrentSidebarCategory().items}/>
+```
+
